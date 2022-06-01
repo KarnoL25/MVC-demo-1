@@ -1,0 +1,12 @@
+{
+  "name": "mvc-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

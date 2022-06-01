@@ -1,0 +1,27 @@
+#app2{
+    border: 1px solid black;
+}
+#app2 .tab-bar{
+    display: flex;
+}
+#app2 .tab-bar>li{
+    border: 1px solid grey;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#app2 .tab-bar>li.selected{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+#app2 .tab-content{
+    display: flex;
+    justify-content: center;
+
+}
+#app2 .tab-content >li{
+    display: none;
+}
+#app2 .tab-content >li.active{
+    display: block;
+}
